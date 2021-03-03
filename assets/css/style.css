@@ -11,15 +11,20 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #DEF3FD;
+}
+
+body .title{
+  color: #9A76A5;
 }
 
 a {
-  color: #e43c5c;
+  color: #e4d1b0;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ea6981;
+  color: #68eefa;
   text-decoration: none;
 }
 
@@ -146,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #e43c5c;
+  background-color: #ffff;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -364,6 +369,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
 }
 
+#hero .hero-container img {
+  padding-top: 50px;
+}
+
 #hero h3 {
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
@@ -437,6 +446,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -459,7 +469,7 @@ section {
   line-height: 1;
   margin: 0;
   background: #fdeff2;
-  color: #e43c5c;
+  color: #9A76A5;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -472,12 +482,16 @@ section {
 }
 
 .section-title h3 span {
-  color: #e43c5c;
+  color: #9A76A5;
 }
 
 .section-title p {
   margin: 15px auto 0 auto;
   font-weight: 600;
+}
+
+.section-title a{
+  color: #4cbbfb;
 }
 
 @media (min-width: 1024px) {
@@ -725,8 +739,8 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #fff;
-  background: #e43c5c;
+  color: #9A76A5;
+  background: #fdeff2;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -752,7 +766,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #e43c5c;
+  background: #d3d3d3;
   padding: 15px 20px;
 }
 
@@ -1138,7 +1152,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #DEF3FD;
 }
 
 .contact .info i {
