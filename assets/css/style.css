@@ -348,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .eAlert
 {
   color: red;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 #hero:before {
